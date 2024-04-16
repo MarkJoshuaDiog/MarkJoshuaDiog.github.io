@@ -1,0 +1,176 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Application Management Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#HTML_Fundamentals"
+            >HTML Fundamentals</a>
+        </li>
+        <li><a class="nav-link" href="#CSS_Fundamentals"
+          >CSS Fundamentals</a>
+        </li>
+        <li><a class="nav-link" href="#More_About_HTML_And_CSS">More about HTML and CSS</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Web Applications are software programs accessed through web browsers, providing a range of 
+            services from online shopping to social networking. They eliminate the need for manual installation, offering 
+            accessibility across devices with internet access. With front-end elements for user interaction and back-end
+            components for data processing, web apps have transformed how we access and use digital services.
+          </p>
+
+          <p>
+           Core Components of a Web Application
+
+           <li>A web application includes essential elements like HTML for structure, CSS for styling, and JavaScript for interactivity. 
+           It contains standard functionalisties such as handling user input, managing data, and displaying content. Additionally, web apps
+           can be enhanced with libraries and frameworks like React, Vue.js, or Angular to extend their capabilities and create dynamic user experiences.</li>
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know about Web Applications, HTML, and CSS</header>
+        <article>
+          <p>This guide assumes you have the following basic background:</p>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+            <li>
+              Some programming experience. If you are new to programming, try
+              one of the tutorials linked on the main page about HTML and CSS.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="HTML_Fundamentals">
+        <header>HTML Fundamentals</header>
+        <article>
+          <p>
+            HTML (HyperText MarkUp Language) forms the backbone of web pages, organizing content through a system of tags.
+            <li>
+              Each HTML document starts with a declaration &lt;!DOCTYPE html&gt; and comprises essential elements.
+            </li>
+            <li>
+              The tag &lt;html&gt; tag encompases the entire content.
+            </li>
+            <li>
+              The &lt;head&gt; tag holds metadata like the &lt;title&gt; for page titles and links to stylesheets.
+            </li>
+            <li>
+              Inside there is the &lt;body&gt; tag, we create visible content such as headings &lt;h1&gt; to &lt;h6&gt; tag for titles, &lt;p&gt; tag is for paragraphs.
+            </li>
+            <li>
+              &lt;a&gt; tag is for navigation, and &lt;img&gt; is for images or visuals.
+            </li>
+            <li>
+              List come in two flavors &lt;ul&gt; tag is for unordered (bullet points) and &lt;ol&gt; tag is for ordered (numbered).
+            </li>
+            <li>
+              The &lt;div&gt; tag and &lt;span&gt; tag is for group elements together for styling and structure.
+            </li>
+            <li>
+              Attributes like 'id' and 'class' provide additional information and styling hooks. HTML also supports comments '&lt;!-- --&gt;'.
+            </li>
+            <li>
+              <img src="https://miro.medium.com/v2/resize:fit:1024/1*pncu1nQJwZArx6gZOSpdng.png" alt="https://medium.com/@merhadi/html-starter-template-b270cdf00e11">
+              <li>An example of a simple HTML code reference: https://medium.com/@merhadi/html-starter-template-b270cdf00e11</li>
+            </li>
+            </p>
+      </section>
+      <section class="main-section" id="CSS_Fundamentals">
+        <header>CSS Fundamentals</header>
+        <p>
+          CSS, known as Cascading Style Sheets, is an essential language for web design, allowing developers to define the appearance and layout of HTML elements. It involvles selectors, which pinpoint which elements to style,
+          and properties with values that dictate the look (such as colors and sizes).
+        </p>
+        <li>Selectors: Selectors target HTML elements to apply styles. They can be simple like &lt;p&gt; for paragraphs or complex like &lt;class&gt; for elements with a specific class.</li>
+        <li>Properties and Values: CSS properties dictate what aspects of an element's style are being modified, such as 'color', 'font-size', 'margin'. Values define the specific characteristics, like 'red', '20px', or 'auto'.</li>
+        <li>Style Rules: A CSS rule consists of a selector and a declaration block. Inside the block, properties and their values are defined. For example:
+          <li>
+            h1 {
+              color: blue;
+              font-size: 24px;
+            }
+          </li>
+        </li>
+        <li>
+          Selectors Types: These are various selector types:
+          <li>Element Selector: Targets specific HTML elements 'p', 'h1', 'div'.</li>
+          <li>Class Selector: Targets elements with a specific class '.class'</li>
+          <li>ID Selector: Targets a single, unique element with a specific ID '#id'</li>
+          <li>Descendant Selector: Targets elements that are descendants of another specified element 'parent child'</li>
+          <li>Pseudo-classes and Pseudo-elements: Allows styling based on state or position ':hover', '::before' </li>
+        </li>
+        <li>
+          Box Model: Essential to understanding layout, the box model consists of content, padding, border, and margin. Each of these componentss can be styled individually to control spacing and positioning.
+        </li>
+        <li>
+          Responsive Design: CSS enables the creation of responsive web designs that adapt to different screen sizes and devices. Media queries are used to apply styles based on device characteristics such as screen width.
+        </li>
+        <p>
+          CSS provides the means to create visually engaging websites, from simple color changes to complex layout structures. Understanding CSS fundamentals allows developers to customize the look and feel of web pages,
+          creating intuitive and appealing user experiences. A clear grasp of selectors, properties, and layout principles empowers developers to craft elegant and responsive designs.
+        </p>
+        <p>
+          <img src="https://code.visualstudio.com/assets/docs/languages/css/color.png" width="1000">
+          <li>A simple example of a CSS code.</li>
+        </p>
+      </section>
+      <section class="main-section" id="More_About_HTML_And_CSS">
+        <header>More about HTML and CSS</header>
+        <article>
+          You can declare a variable in three ways:
+          <p>
+           HTML (HyperText Markup Language) serves as the backbone of web pages, providing the strucure and content that users see. It uses tags to define elements such as headings, paragraphs, links, images, and more. CSS (Cascading Style Sheets), on the other hand, enhances the appearance of these HTML elements by controlling their colors, fonts, layouts, and spacing.
+           Together, HTML and CSS work hand in hand to create visually appealing and well-organized web pages. Understanding these fundamental languages is essential for web developers to craft engaging and user-friendly online experiences.
+           <li>
+            Want more? 
+            <li>
+              Visit www.w3schools.com
+              
+            </li>
+           </li>
+          </p>
+        </article>
+      </section>
+      
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://www.w3schools.com"
+                target="_blank"
+                >MDN</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
